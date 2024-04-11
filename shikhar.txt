@@ -1,0 +1,42 @@
+# # NAME : SHIKHAR UPADHYAY
+# # ASSIGNMENT : 1
+# # Write a program to print your name.
+
+# # I have used user defined funtion for it.
+
+# first_name = input("Write your firstname:")
+# last_name = input("Write your lastname:")
+# full_name = first_name+ " " +last_name
+# print("Your Fullname is:",full_name)
+
+# print()# empty line for spacing.
+
+# """# another way
+# f_name = input("Write your f_name:")
+# l_name = input("Write your l_name:")
+# print("Your Fullname is:",f_name , l_name)
+
+# print()# empty line for spacing."""
+
+
+
+# # Get inputs for first name, middle name (optional), and last name
+# first_name = input("Write your firstname: ")
+# middle_name = input("Write your middlename (optional): ")
+# last_name = input("Write your lastname: ")
+
+# # Construct the full name
+# if middle_name:  # Check if middle name is provided (i.e., not an empty string)
+#     full_name = f"{first_name} {middle_name} {last_name}"
+# else:
+#     full_name = f"{first_name} {last_name}"
+
+# # Print the full name
+# print("Your Fullname is:", full_name)
+
+
+# print()
+
+#simply print my name on the console without pre-defined function
+name = "SHIKHAR upadhyay" 
+print("name:", name)
